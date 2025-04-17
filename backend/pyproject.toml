@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graphql-backend"
+version = "0.1.0"
+description = "FastAPI + GraphQL + MongoDB"
+authors = ["Pablo <ur.pablo@gmail.com>"]
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+strawberry-graphql = "^0.263.1"
+motor = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
