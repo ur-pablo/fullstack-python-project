@@ -88,3 +88,10 @@ Feel free to submit issues or pull requests to improve the project. Follow the [
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Soon
+
+- Security layer for backend with istio. Only dockerfiles an kubernetes manifests.
+- Frontend with angular.
+- JWT Auth.
+- Add a Scheduler (APScheduler o asyncio).
